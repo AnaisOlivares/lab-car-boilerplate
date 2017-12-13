@@ -1,1 +1,15 @@
 /* Los estilos de tu proyecto */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding: 10px;
+}
+
+button.navbar-toggle.collapsed.hola {
+  float: left;
+  margin-left: 20px;
+}
