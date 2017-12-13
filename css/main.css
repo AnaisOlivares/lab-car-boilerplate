@@ -13,3 +13,14 @@ button.navbar-toggle.collapsed.hola {
   float: left;
   margin-left: 20px;
 }
+
+.first-image {
+  background-image: url(../assets/images/taxi.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+nav.space {
+      margin: 0px;
+}
