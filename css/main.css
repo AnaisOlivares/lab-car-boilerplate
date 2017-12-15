@@ -1,4 +1,5 @@
 /* Los estilos de tu proyecto */
+
 * {
   margin: 0px;
   padding: 0;
@@ -22,7 +23,7 @@ button.navbar-toggle.collapsed.hola {
 }
 
 nav.space {
-      margin: 0px;
+  margin: 0px;
 }
 
 .square-yellow {
@@ -35,12 +36,25 @@ nav.space {
   background-image: url(../assets/images/conduce.jpg);
   height: 100vh;
   background-size: cover;
-  background-position-y: bottom center;
+  background-position: center;
 }
 
 .overlay {
-      background: rgba(0, 0, 0, 0.2);
-      margin-top: 0px;
-      padding: 30px;
-      height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 0px;
+  padding: 30px;
+  height: 100vh;
+}
+
+.tercer-section {
+  background-color: #f7b617;
+  height: 100vh;
+}
+
+.hi {
+  border: 1px solid white;
+  width: 900px;
+  margin-top: 60px;
+  padding: 16px;
+  border-left: 0px;
 }
