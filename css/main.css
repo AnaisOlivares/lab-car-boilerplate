@@ -55,12 +55,16 @@ hr {
   padding: 30px;
 }
 
-.line {
+.line{
   border: 1px solid white;
   border-left: 0px;
   padding: 30px;
 }
 
+iframe {
+  outline: 1px solid white;
+  padding: 10px;
+}
 @media (max-width: 768px) {
   .line {
     border: 1px solid white;
