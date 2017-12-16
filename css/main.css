@@ -1,18 +1,15 @@
 /* Los estilos de tu proyecto */
 
-* {
+body {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
-
+.navbar.navbar-default.head {
+  margin: 0px;
+}
 .logo {
   padding: 10px;
-}
-
-button.navbar-toggle.collapsed.hola {
-  float: left;
-  margin-left: 20px;
 }
 
 .first-image {
@@ -22,10 +19,14 @@ button.navbar-toggle.collapsed.hola {
   background-position-y: bottom;
 }
 
-nav.space {
-  margin: 0px;
+.navbar-toggle.collapsed.hamburguer {
+  float: left;
+    margin-left: 10px;
 }
 
+ hr {
+   width: 10px;
+ }
 .square-yellow {
   background-color: #F7B617;
   padding: 30px;
@@ -51,10 +52,17 @@ nav.space {
   height: 100vh;
 }
 
-.hi {
+/* .hi {
   border: 1px solid white;
   width: 900px;
   margin-top: 60px;
   padding: 16px;
   border-left: 0px;
+} */
+
+/* .hi {
+  border: 1px solid red;
+margin: 30px;
+height: 86vh;
+padding: 30px; */
 }
