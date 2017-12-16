@@ -1,13 +1,14 @@
 /* Los estilos de tu proyecto */
-
 body {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
+
 .navbar.navbar-default.head {
   margin: 0px;
 }
+
 .logo {
   padding: 10px;
 }
@@ -21,12 +22,13 @@ body {
 
 .navbar-toggle.collapsed.hamburguer {
   float: left;
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
- hr {
-   width: 10px;
- }
+hr {
+  width: 10px;
+}
+
 .square-yellow {
   background-color: #F7B617;
   padding: 30px;
@@ -46,23 +48,21 @@ body {
   padding: 30px;
   height: 100vh;
 }
-
-.tercer-section {
-  background-color: #f7b617;
-  height: 100vh;
+/* segundo cuadro amarillo, segunda seccion */
+.background {
+  background-color: #F7B617;
+  height: auto;
+  padding: 30px;
 }
 
-/* .hi {
+.line {
   border: 1px solid white;
-  width: 900px;
-  margin-top: 60px;
-  padding: 16px;
   border-left: 0px;
-} */
+  padding: 30px;
+}
 
-/* .hi {
-  border: 1px solid red;
-margin: 30px;
-height: 86vh;
-padding: 30px; */
+@media (max-width: 768px) {
+  .line {
+    border: 1px solid white;
+  }
 }
