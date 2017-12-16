@@ -65,6 +65,14 @@ iframe {
   outline: 1px solid white;
   padding: 10px;
 }
+
+footer {
+  background-color: #2B2B2B;
+  height: auto;
+}
+li {
+  color: white;
+}
 @media (max-width: 768px) {
   .line {
     border: 1px solid white;
