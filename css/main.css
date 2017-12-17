@@ -10,6 +10,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .letter-style {
@@ -86,6 +87,9 @@ iframe {
 .form-control.input {
   background-color: #f7b617;
   color: white;
+}
+.bold {
+  font-weight: bolder;
 }
 
 footer {
