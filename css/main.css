@@ -1,8 +1,19 @@
 /* Los estilos de tu proyecto */
+
 body {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.letter-style {
+  color: white;
 }
 
 .navbar.navbar-default.head {
@@ -26,7 +37,7 @@ body {
 }
 
 hr {
-  width: 10px;
+  width: 50px;
 }
 
 .square-yellow {
@@ -43,19 +54,21 @@ hr {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   margin-top: 0px;
   padding: 30px;
   height: 100vh;
 }
+
 /* segundo cuadro amarillo, segunda seccion */
+
 .background {
   background-color: #F7B617;
   height: auto;
   padding: 30px;
 }
 
-.line{
+.line {
   border: 1px solid white;
   border-left: 0px;
   padding: 30px;
@@ -66,15 +79,40 @@ iframe {
   padding: 10px;
 }
 
+.btn.button {
+  background-color: #f7b617;
+}
+
+.form-control.input {
+  background-color: #f7b617;
+  color: white;
+}
+
 footer {
   background-color: #2B2B2B;
   height: auto;
+  padding: 30px;
 }
+
 li {
   color: white;
 }
+
+.plataforms {
+  margin: 10px;
+}
+
 @media (max-width: 768px) {
   .line {
     border: 1px solid white;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.list-unstyled.apps {
+    position: absolute;
+    bottom: 2%;
+    /* float: right; */
+    right: 18%;
   }
 }
