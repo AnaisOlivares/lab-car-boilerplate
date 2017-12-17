@@ -31,7 +31,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Viaja</a></li>
             <li><a href="#">Conduce</a></li>
-            <li><a href="#">Inicia sesión</a></li>
+            <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">Inicia sesión</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -42,12 +42,12 @@
   <!-- primera seccion -->
   <section class="first-image">
     <div class="square-yellow col-xs-9 col-xs-offset-3 col-sm-5 col-sm-offset-7">
-      <h1 class="bold">Disfruta del viaje <br>Eres dueño de tu tiempo</h1>
-      <h3 class="bold">Viaja con <span> <img src="assets/images/logoBlanco.png" alt="white logo"></span>
+      <h1 class="bold white">Disfruta del viaje <br>Eres dueño de tu tiempo</h1>
+      <h3 class="bold white">Viaja con <span> <img src="assets/images/logoBlanco.png" alt="white logo"></span>
       </h3>
       <button class="bold btn btn-default text-uppercase" type="button" name="button">Regístrate</button>
       <hr>
-      <button class="btn btn-default" type="button" name="button">Conviértete en un conductor</button>
+      <button class="btn btn-default" type="button" name="button" data-toggle="modal" data-target=".bs-example-modal-sm">Conviértete en un conductor</button>
     </div>
   </section>
 
@@ -58,13 +58,13 @@
       <div class="row">
         <div class=" col-sm-10 line">
           <div class=" col-sm-5 col-sm-10">
-            <h2 class="visible-xs text-center bold">La nueva App</h2>
+            <h2 class="visible-xs text-center bold white">La nueva App</h2>
             <img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="iPhone">
           </div>
           <div class="col-sm-3 hidden-xs">
-            <h3 class="bold">Descarga la nueva app</h3>
-            <p>La versión actualizada de Labcar esta llena de nuevas versiones para llegar a donde quieras aún más fácil y rápido.</p>
-            <p>
+            <h3 class="bold white">Descarga la nueva app</h3>
+            <p class="white">La versión actualizada de Labcar esta llena de nuevas versiones para llegar a donde quieras aún más fácil y rápido.</p>
+            <p class="white">
               Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes ya que tu conductor sabe a donde ir.
             </p>
           </div>
@@ -72,14 +72,14 @@
       </div>
     </div>
     <!-- </div> -->
-    <h4 class="visible-xs">Llega a tu destino aún más rápido</h4>
+    <h4 class="visible-xs white">Llega a tu destino aún más rápido</h4>
   </section>
   <!-- tercera seccion  -->
   <section class="second-image">
     <div class="overlay col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-8">
-      <h2 class="bold">Conduce cuando quieras</h2>
-      <p>Labcar es una opción flexible para alcanzar <br> tus metas financieras</p>
-      <button class="btn button" type="button" name="button">Conviértete en un conductor</button>
+      <h2 class="bold white">Conduce cuando quieras</h2>
+      <p class="white">Labcar es una opción flexible para alcanzar <br> tus metas financieras</p>
+      <button class="btn button white" type="button" name="button">Conviértete en un conductor</button>
     </div>
   </section>
 
@@ -89,8 +89,8 @@
     <div class="col-sm-7">
       <form class="form-horizontal">
         <div class=" col-sm-offset-2 col-sm-10">
-          <h2 class="bold">Tarifas</h2>
-          <h4>Consulta las tarifas Lab Car aquí</h4>
+          <h2 class="bold white">Tarifas</h2>
+          <h4 class="white">Consulta las tarifas Lab Car aquí</h4>
         </div>
         <div class="form-group">
           <label for="inputEmail3" class="col-sm-2 col-xs-1 control-label">
@@ -116,7 +116,7 @@
       </form>
       <!-- <iframe class="border-2 col-xs-12 col-sm-4"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124791.00194687633!2d-76.9507328!3d-12.199526399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513437608531" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
     </div>
-    <h4 class="visible-xs">11</h4>
+    <h4 class="visible-xs white">11</h4>
 
     <!-- <div class="border-2" > -->
     <iframe class="border-2 col-xs-12 col-sm-4" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124791.00194687633!2d-76.9507328!3d-12.199526399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513437608531" width="356" height="402"
@@ -182,10 +182,53 @@
 </div>
         <hr class="col-xs-9 col-xs-offset-1 col-sm-offset-1 col-sm-10">
       </div>
-      <p class="col-sm-offset-1 font-size">&#169; 2017 LabCar Technologies Inc.</p>
+      <p class="col-sm-offset-1 font-size white">&#169; 2017 LabCar Technologies Inc.</p>
 
     </div>
   </footer>
+
+  <!-- modal -->
+  <!-- Small modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button> -->
+
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+
+          <form class="form-horizontal">
+            <img class="img-responsive paddin" src="assets/images/login-icon.png" alt="username">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-7 col-sm-offset-1">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-7 col-sm-offset-1">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-4">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-4">
+      <button type="submit" class="btn button btn-default">Sign in</button>
+    </div>
+  </div>
+
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>

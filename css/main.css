@@ -8,11 +8,13 @@ body {
 
 * {
   font-family: 'Raleway', sans-serif;
-  color: white;
+  /* color: white; */
   font-size: 16px;
   font-weight: 500;
 }
-
+ .white {
+   color: white;
+ }
 .letter-style {
   color: white;
 }
@@ -101,11 +103,17 @@ footer {
 li {
   color: white;
 }
-
+.paddin {
+  padding: 30px;
+}
 .plataforms {
   margin: 10px;
 }
 
+.control-label {
+  color: black;
+margin-left: 15px;
+}
 @media (max-width: 768px) {
   .line {
     border: 1px solid white;
