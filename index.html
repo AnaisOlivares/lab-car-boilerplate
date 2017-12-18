@@ -45,7 +45,7 @@
       <h1 class="bold white">Disfruta del viaje <br>Eres dueño de tu tiempo</h1>
       <h3 class="bold white">Viaja con <span> <img src="assets/images/logoBlanco.png" alt="white logo"></span>
       </h3>
-      <button class="bold btn btn-default text-uppercase" type="button" name="button">Regístrate</button>
+      <button class="bold btn btn-default text-uppercase" type="button" name="button" data-toggle="modal" data-target="#miModal">Regístrate</button>
       <hr>
       <button class="btn btn-default" type="button" name="button" data-toggle="modal" data-target=".bs-example-modal-sm">Conviértete en un conductor</button>
     </div>
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
+          <div class="col-sm-offset-2 col-sm-10 ruta">
             <button type="submit" class="btn btn-default col-sm-offset-0 col-sm-7 col-xs-7 col-xs-offset-3">¡TRAZAR RUTA!</button>
           </div>
         </div>
@@ -172,14 +172,14 @@
           </ul> -->
         </div>
         <div class="col-xs-6 col-sm-2 col-sm-offset-8 container-fluid">
-        <ul class="list-unstyled apps">
-          <li><img class=" img-responsive plataforms "src="assets/images/appstore.png" alt="app store">
-          </li>
-          <li>
-            <img class=" img-responsive plataforms" src="assets/images/enBadgeWebGeneric.png" alt="google play">
-          </li>
-        </ul>
-</div>
+          <ul class="list-unstyled apps">
+            <li><img class=" img-responsive plataforms " src="assets/images/appstore.png" alt="app store">
+            </li>
+            <li>
+              <img class=" img-responsive plataforms" src="assets/images/enBadgeWebGeneric.png" alt="google play">
+            </li>
+          </ul>
+        </div>
         <hr class="col-xs-9 col-xs-offset-1 col-sm-offset-1 col-sm-10">
       </div>
       <p class="col-sm-offset-1 font-size white">&#169; 2017 LabCar Technologies Inc.</p>
@@ -195,36 +195,62 @@
     <div class="modal-dialog modal-sm" role="document">
       <div class="modal-content">
 
-          <form class="form-horizontal">
-            <img class="img-responsive paddin" src="assets/images/login-icon.png" alt="username">
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-7 col-sm-offset-1">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-7 col-sm-offset-1">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-4">
-      <div class="checkbox">
-        <label>
+        <form class="form-horizontal">
+          <img class="img-responsive paddin" src="assets/images/login-icon.png" alt="username">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-7 col-sm-offset-1">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-7 col-sm-offset-1">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+              <div class="checkbox">
+                <label>
           <input type="checkbox"> Remember me
         </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+              <button type="submit" class="btn button btn-default">Sign in</button>
+            </div>
+          </div>
+
+        </form>
       </div>
     </div>
   </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-4">
-      <button type="submit" class="btn button btn-default">Sign in</button>
-    </div>
   </div>
+  <!-- segundo modal -->
 
-</form>
+  <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body form-horizontal mod-color">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <button type="button" class="btn btn-primary btn-lg btn-block dark">Ya tienes una cuenta?</button>
+          <h3 class="text-center"> O crea una cuenta nueva</h3>
+          <div class="form-group">
+            <input class="col-sm-5 text-center left" type="text" placeholder="Nombre">
+            <input class="left col-sm-6 text-center" type="text" placeholder="Apellido">
+          </div>
+          <input class="form-control margin-input col-sm-3" type="text" placeholder="Teléfono">
+          <input class="form-control margin-input" type="text" placeholder="Correo electrónico: ejemplo@correo.pe">
+          <input class="form-control margin-input" type="text" placeholder="Teléfono">
+          <input class="form-control margin-input" type="text" placeholder="Contraseña">
+          <input class="form-control margin-input" type="text" placeholder="Ciudad">
+          <input class="form-control margin-input" type="text" placeholder="(0pcional) Código de invitación">
+          <button type="button" class="btn btn-default btn-lg btn-block">Cómo te enteraste de nosotros?</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block">Enviar</button>
         </div>
       </div>
     </div>
