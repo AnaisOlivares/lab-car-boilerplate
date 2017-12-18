@@ -141,6 +141,10 @@ li {
   padding-left: 34px;
 }
 
+option {
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .line {
     border: 1px solid white;
